@@ -42,6 +42,10 @@ Show content only if a user has purchased any of the specified download ids.
 Supports multiple IDs. If a download has variable pricing, you can pass just the ID for all options, or <download id>:<price id> for a specific variable pricing option.
 [edd_user_has_purchased ids="20,34,25:1"]Content Here[/edd_user_has_purchased]
 
+Show content only if a user has not purchased any of the specified download ids.
+Supports multiple IDs. If a download has variable pricing, you can pass just the ID for all options, or <download id>:<price id> for a specific variable pricing option.
+[edd_user_has_not_purchased ids="20,34,25:1"]Content Here[/edd_user_has_not_purchased]
+
 Software Licensing Support:
 Show content only if a user has active licenses
 [edd_has_active_licenses]Content Here[/edd_has_active_licenses]
